@@ -96,3 +96,9 @@ p {
   background-color: var(--primary-color);
   color: var(--secondary-color);
 }
+
+.navbar-brand {
+  border: 3px solid;
+  padding: 16px 20px;
+  opacity: 0.5;
+}

@@ -53,12 +53,12 @@ p {
   opacity: 0.7;
 }
 
-.about-paragraphs {
+.about-paragraph {
   display: flex;
   margin: 30px 0;
 }
 
-.about-paragraphs p {
+.about-paragraph p {
   margin: 10px;
 }
 

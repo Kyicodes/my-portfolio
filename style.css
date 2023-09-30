@@ -47,31 +47,34 @@ p {
 }
 
 .contact-link {
-  background: var(--secondary-color);
+  background-color: var(--secondary-color);
   box-shadow: var(--box-shadow);
   color: #000;
   opacity: 0.7;
+  border-radius: 4px;
+  padding: 20px 15px;
 }
 
-.about-paragraph {
+.introduction {
   display: flex;
   margin: 30px 0;
 }
 
-.about-paragraph p {
-  margin: 10px;
+.introduction a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
 }
 
 .email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
+  color: black;
   font-size: 28px;
   text-decoration: none;
 }
 
 .email-link:hover {
   text-decoration: underline;
+  color: var(--primary-color);
 }
 
 .primary-link {
@@ -117,4 +120,27 @@ p {
   color: #000;
   opacity: 0.5;
   padding: 20px 10px;
+}
+
+.toolbox {
+  width: 999px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+}
+
+h4 {
+  font-size: 55px;
+  text-align: start;
+  padding: 0 70px;
+  margin: 0 70px;
+}
+
+.toolbox img {
+  width: 100px;
+  background-color: var(--secondary-color);
+  border-radius: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

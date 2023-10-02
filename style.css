@@ -4,7 +4,7 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --main-font-family: 'Poppins', sans-serif;
   --secondary-font-family: 'Poiret One', cursive;
-  --primary-opacity: 0.8;
+  --primary-opacity: 0.9;
 }
 
 body {
@@ -35,7 +35,7 @@ p {
   font-family: var(--secondary-font-family);
   padding: 20px;
   border-radius: 4px;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 1.5;
   text-align: center;
 }
@@ -114,6 +114,10 @@ i {
   background-color: var(--secondary-color);
   color: #000;
   opacity: var(--primary-opacity);
+}
+
+.navbar {
+  font-weight: bold;
 }
 
 .navbar-brand {

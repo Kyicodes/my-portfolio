@@ -247,11 +247,35 @@ i {
   font-size: 50px;
 }
 
-.projects {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.projects-container {
+  margin: 30px;
+  padding: 40px;
+  text-align: center;
 }
 
-.project img {
-  width: 85%;
+.projects-container img {
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.project-link a {
+  text-decoration: none;
+  color: #000;
+}
+
+.project-link a:hover {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+@media (max-width: 900px) {
+  .tools {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .toolbox-skill img {
+    width: 100px;
+  }
 }

@@ -246,3 +246,12 @@ i {
   text-align: center;
   font-size: 50px;
 }
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project img {
+  width: 85%;
+}
